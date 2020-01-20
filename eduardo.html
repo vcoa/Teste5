@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Projeto git</title>
+</head>
+<style type="text/css">
+	
+</style>
+<body>
+
+	<input type="text" name="" id="n1">+
+	<input type="text" name="" id="n2">
+	<button type="button" onclick="Somar()">Somar</button>
+	<p id="result"> </p>
+
+
+	<script type="text/javascript">
+
+		//Funcao de somar
+		function Somar() {
+		
+		var n1 = document.getElementById('n1').value
+		var n2 = document.getElementById('n2').value
+
+		var valor = Number(n1) +  Number(n2)
+		
+		var reslt = document.getElementById('result');
+		
+		
+ 		document.getElementById("reslt").innerHTML = `<h1>O resultado: ${valor}</h1>`;
+		} 
+
+
+	</script>
+</body>
+</html>
